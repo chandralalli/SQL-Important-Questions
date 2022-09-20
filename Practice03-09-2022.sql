@@ -46,3 +46,6 @@ select * from teacher natural join student ;
 select * from teacher join student using(tid);
 select * from emp;
 commit;
+
+rollback;
+
