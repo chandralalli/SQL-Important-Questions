@@ -44,5 +44,5 @@ select * from teacher t left join student s on t.tid=s.stno;
 --select * from emp e left join dept on 
 select * from teacher natural join student ;
 select * from teacher join student using(tid);
-
+select * from emp;
 commit;
